@@ -1,38 +1,56 @@
-.App {
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.counter {
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.counter-button {
+  font-size: 50px;
+  border: 1px solid rgb(8, 174, 185);
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.counter-button-disabled {
+  font-size: 50px;
+  border: 1px solid #eee;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  cursor: text;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.badge-info {
+  padding: 1px;
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.badge-success {
+  padding: 1px;
+  color: #fff;
+  background-color: #28a745;
 }

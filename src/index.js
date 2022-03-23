@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Day16 from './components/Day16';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Day16 />
   </React.StrictMode>,
   document.getElementById('root')
 );
